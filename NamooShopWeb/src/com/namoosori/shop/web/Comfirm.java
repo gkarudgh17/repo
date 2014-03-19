@@ -23,7 +23,7 @@ public class Comfirm extends HttpServlet {
 			throws ServletException, IOException {
 		doPost(req, resp);
 	}
-
+//
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
