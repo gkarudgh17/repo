@@ -33,7 +33,7 @@ public class Complete extends HttpServlet {
 		writer.println("<html>");
 		writer.println("<head>");
 		writer.println("<title>완료</title>");
-		writer.println("<link href='./complete.css' rel='stylesheet' type='text/css' />");
+		writer.println("<link href='./css/complete.css' rel='stylesheet' type='text/css' />");
 		writer.println("</head>");
 		writer.println("<body>");
 		

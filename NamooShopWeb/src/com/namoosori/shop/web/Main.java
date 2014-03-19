@@ -47,7 +47,7 @@ public class Main extends HttpServlet {
 		writer.println("<html>");
 		writer.println("<head>");
 		writer.println("<title>Insert title here</title>");
-		writer.println("<link href='./booklist.css' rel='stylesheet' type='text/css' />");
+		writer.println("<link href='./css/booklist.css' rel='stylesheet' type='text/css' />");
 		writer.println("</head>");
 		writer.println("<body>");
 		writer.println("<h1>상품목록</h1>");

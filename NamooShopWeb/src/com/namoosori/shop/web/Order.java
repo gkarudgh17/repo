@@ -52,7 +52,7 @@ public class Order extends HttpServlet {
 		writer.println("<html>");
 		writer.println("<head>");
 		writer.println("<title>Insert title here</title>");
-		writer.println("<link href='./order.css' rel='stylesheet' type='text/css' />");
+		writer.println("<link href='./css/order.css' rel='stylesheet' type='text/css' />");
 		writer.println("</head>");
 		writer.println("<body>");
 		writer.println("<h1>주문 상품</h1>");
