@@ -37,6 +37,11 @@ public class Comfirm extends HttpServlet {
 		String pay = req.getParameter("pay");
 		String address = req.getParameter("address");
 		
+		/*if(pay != null | address != null) {
+		 *오더에 책리스트 목록줘야함
+			RequestDispatcher dispatcher = req.getRequestDispatcher("order.xhtml");
+			dispatcher.forward(req, resp);
+		}*/
 		System.out.println(pay);
 		System.out.println(address);
 		writer.println("<html>");

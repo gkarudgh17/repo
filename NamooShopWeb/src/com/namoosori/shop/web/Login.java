@@ -49,9 +49,8 @@ public class Login extends HttpServlet {
 			}
 		}
 		
-		System.out.println(loginid);
-		System.out.println(password);
-		
+//		System.out.println(loginid);
+//		System.out.println(password);
 		if(loginid.length()>0){
 			login = "로그인실패";
 		}

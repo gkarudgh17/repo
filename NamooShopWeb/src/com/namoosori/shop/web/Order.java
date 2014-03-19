@@ -36,7 +36,6 @@ public class Order extends HttpServlet {
 		req.setCharacterEncoding("UTF-8");
 		resp.setContentType("text/html; charset=utf-8");
 		PrintWriter writer = resp.getWriter();
-		String[] products = req.getParameterValues("products");
 
 		// 요청파라미터
 		HttpSession session = req.getSession();
@@ -68,6 +67,7 @@ public class Order extends HttpServlet {
 		writer.println("</tr>");
 		writer.println("</thead>");
 
+		String[] products = req.getParameterValues("products");
 		int price = 0;
 		System.out.println("주문한책목록" + products);
 		for (String productName : products) {

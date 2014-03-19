@@ -26,6 +26,8 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
+//		CustomerRepository repository = CustomerRepository.getInstance();
+		
 		ServletContext context = getServletContext();
 		String userId = context.getInitParameter("adminId");
 		String password = context.getInitParameter("adminPassword");
