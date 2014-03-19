@@ -27,7 +27,7 @@ public class Login extends HttpServlet {
 
 		resp.setContentType("text/html; charset=utf-8");
 		PrintWriter writer = resp.getWriter();
-
+		//
 		String login = "";
 		String loginid = "";
 		String password = "";
