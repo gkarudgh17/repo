@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border: 1px solid #222;
+}
+
+.can {
+	border: 1px solid #222;
+	width: 100px;
+	text-align: center;
+}
+
+#login {
+	position: absolute;
+	left: 210px;
+}

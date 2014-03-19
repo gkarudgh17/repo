@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#tableaaa{
+	border-collapse: collapse;
+}
+
+.table1{
+	width: 200px;
+	text-align: center;
+	border: 1px solid #222;
+}
+.table2{
+	width : 350px;
+	border: 1px solid #222;
+	text-align: left;
+}
+
+#sin {
+	position: absolute;
+	border: 1px solid;
+	left: 480px;
+}

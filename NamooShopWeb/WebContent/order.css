@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+table{
+	border-collapse: collapse;
+}
+td,th {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #222;
+	
+}
+.table1{
+	width: 200px;
+	text-align: center;
+	border: 1px solid #222;
+}
+.table2{
+	width : 350px;
+	border: 1px solid #222;
+	text-align: left;
+}
+
+#jumun {
+	position: absolute;
+	border: 1px solid;
+	left: 480px;
+}
+#h2{
+	left:400px;
+}
+.books1 {
+	width: 90px;
+	text-align: center;
+}
+
+.books2 {
+	width: 220px;
+}
+
+.books3 {
+	width: 70px;
+	text-align: right;
+}

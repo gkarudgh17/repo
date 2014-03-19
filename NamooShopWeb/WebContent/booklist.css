@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 20px;
+	width: 600px;
+	height: 300px;
+	border: 1px solid #222;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td,th {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #222;
+	
+}
+
+th {
+	background-color: rgb(225, 225, 225);
+}
+
+#jumun {
+	position: absolute;
+	border: 1px solid;
+	left: 480px;
+}
+
+.books {
+	width: 20px;
+}
+
+.books1 {
+	width: 90px;
+	text-align: center;
+}
+
+.books2 {
+	width: 220px;
+}
+
+.books3 {
+	width: 70px;
+	text-align: right;
+}
+
+.books4 {
+	width: 70px;
+	text-align: center;
+}
